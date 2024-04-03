@@ -2,7 +2,7 @@ name: My-Deploy-First-of-Github
 on:
   push:
     branches:
-      - main
+      - test
 
 jobs:
   my-testing:
