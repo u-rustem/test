@@ -6,7 +6,7 @@ on:
 
 jobs:
   my-testing:
-    runs-on: ubuntu latest
+    runs-on: ubuntu-latest
     steps:
-    - name : Print
-      run  : echo "Hello"
+      - name: Print
+        run: echo "Hello"
